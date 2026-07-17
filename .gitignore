@@ -1,0 +1,23 @@
+# Jupyter
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Данные (при необходимости конкретный датасет можно добавить принудительно:
+# git add -f 00_real_estate_market_sql/data.csv)
+*.csv
+*.zip
+data/
+datasets/
+
+# ОС / редакторы
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
